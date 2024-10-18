@@ -78,7 +78,7 @@ RUN mkdir /docker-entrypoint-initdb.d
 ENV PG_MAJOR 15
 ENV PATH $PATH:/usr/lib/postgresql/$PG_MAJOR/bin
 
-ENV PG_VERSION 15.6-3.1C
+ENV PG_VERSION 15.8-1.1C
 
 ENV DEBIAN_MAJOR 11
 
